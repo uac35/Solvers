@@ -54,8 +54,7 @@ for i in range(n_steps):
     v[-1,:] = V
 
     # Plot the results in contours
-    plt.contour(u)
-    plt.hold(True)
-    plt.contour(v)
-    plt.hold(False)
+    fig, ax = plt.subplots()
+    ax.contour(u)
+    ax.contour(v)
     plt.show()
