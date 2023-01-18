@@ -14,7 +14,7 @@ yc = 0.5 # y-coordinate of cylinder center
 
 # Define the flow properties
 U = 1 # velocity in x-direction
-V = 0 # velocity in y-direction
+V = 0.1 # velocity in y-direction
 
 # Define the time step and number of time steps
 dt = 0.01
