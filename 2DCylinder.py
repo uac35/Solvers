@@ -24,6 +24,8 @@ n_steps = 1000
 u = np.zeros((N,N))
 v = np.zeros((N,N))
 p = np.zeros((N,N))
+x, y = np.meshgrid(np.linspace(0, L, N), np.linspace(0, L, N))
+
 
 # Define the boundary conditions
 u[:,0] = U
