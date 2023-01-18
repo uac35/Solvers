@@ -1,3 +1,4 @@
+#2D flow around a cylinder, using second order upwind
 import numpy as np
 import matplotlib.pyplot as plt
 
